@@ -1,0 +1,88 @@
+
+body {
+    background-color: #fff0f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a2c3a;
+    font-size: 16px;
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 800px;
+}
+
+
+h1 {
+    color: #d147a3;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+
+h2 {
+    color: #b3367a; 
+    font-size: 22px;
+    border-bottom: 2px solid #ff80bf; 
+    padding-bottom: 5px;
+}
+
+
+.card {
+    background-color: #ffffff; 
+    border: 1px solid #ffccd5;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3); 
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+strong {
+    color: #d147a3; 
+}
+
+
+ul, ol {
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+.photo-block img {
+    display: block;
+    border: 4px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5); 
+    margin: 15px 0 25px 0;
+}
+
+
+.links-block a {
+    display: inline-block;
+    color: #d147a3; 
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 8px 16px;
+    border: 2px solid #ffb3d1; 
+    border-radius: 6px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Ефект при наведенні курсору на посилання */
+.links-block a:hover {
+    background-color: #d147a3; 
+    color: #ffffff; 
+    border-color: #d147a3;
+}
